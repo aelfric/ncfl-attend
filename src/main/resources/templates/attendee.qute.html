@@ -1,0 +1,10 @@
+<html lang="en">
+
+<h1>{name}</h1>
+<p>{lunchType}</p>
+<p>{status}</p>
+<form action="/attendees/{id}" method="post">
+    <input type="hidden" name="status" value="CLAIMED">
+    <button type="submit">Check-In</button>
+</form>
+</html>
