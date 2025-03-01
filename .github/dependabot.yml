@@ -11,6 +11,11 @@ updates:
       interval: "weekly"
     reviewers:
       - "aelfric"
+    groups:
+      quarkus:
+        patterns: 
+          - "io.quarkus:*"
+          - "io.quarkus.platform:*"
   - package-ecosystem: "github-actions"
     directory: "/" # Location of package manifests
     schedule:
